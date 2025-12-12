@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Glow utilities for neon accents on dark backgrounds */
+.glow-cyan {
+	filter: drop-shadow(0 0 8px rgba(34,211,238,0.55));
+}
+.glow-green {
+	filter: drop-shadow(0 0 8px rgba(34,197,94,0.45));
+}
+.glow-red {
+	filter: drop-shadow(0 0 10px rgba(239,68,68,0.6));
+}
+.glow-yellow {
+	filter: drop-shadow(0 0 10px rgba(245,158,11,0.5));
+}
+
+/* Small helper for stronger neon outlines */
+.neon-outline-cyan {
+	box-shadow: 0 0 8px rgba(34,211,238,0.25), 0 0 24px rgba(34,211,238,0.08);
+}
